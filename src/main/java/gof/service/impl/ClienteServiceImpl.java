@@ -1,4 +1,4 @@
-package main.java.gof.service.impl;
+package gof.service.impl;
 
 
 
@@ -7,12 +7,12 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import main.java.gof.model.Cliente;
-import main.java.gof.model.ClienteRepository;
-import main.java.gof.model.Endereco;
-import main.java.gof.model.EnderecoRepository;
-import main.java.gof.service.ClienteService;
-import main.java.gof.service.ViaCepService;
+import gof.model.Cliente;
+import gof.model.ClienteRepository;
+import gof.model.Endereco;
+import gof.model.EnderecoRepository;
+import gof.service.ClienteService;
+import gof.service.ViaCepService;
 
 /**
  * Implementação da <b>Strategy</b> {@link ClienteService}, a qual pode ser

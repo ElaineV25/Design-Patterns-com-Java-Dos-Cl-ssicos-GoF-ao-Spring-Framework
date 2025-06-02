@@ -1,4 +1,4 @@
-package main.java.gof.controller;
+package gof.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import main.java.gof.model.Cliente;
-import main.java.gof.service.ClienteService;
-import springframework.beans.factory.annotation.Autowired;
+import gof.model.Cliente;
+import gof.service.ClienteService;
 
 
 @RestController

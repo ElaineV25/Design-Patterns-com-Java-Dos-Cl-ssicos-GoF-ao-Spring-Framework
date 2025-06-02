@@ -1,5 +1,5 @@
 
-package main.java.gof.model;
+package gof.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

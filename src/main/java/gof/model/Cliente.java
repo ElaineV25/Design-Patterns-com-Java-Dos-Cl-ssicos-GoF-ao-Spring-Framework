@@ -1,4 +1,4 @@
-package main.java.gof.model;
+package gof.model;
 
 
 

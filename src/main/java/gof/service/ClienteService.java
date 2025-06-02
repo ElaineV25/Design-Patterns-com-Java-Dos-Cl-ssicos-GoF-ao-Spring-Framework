@@ -1,7 +1,7 @@
 
-package main.java.gof.service;
+package gof.service;
 
-import main.java.gof.model.Cliente;
+import gof.model.Cliente;
 
 
 public interface ClienteService {
